@@ -6,8 +6,7 @@
     flex-direction: center;
     width: 1300px;
     height: 350px;
-    margin-top: 80px;
-    background-color: blue;
+    margin-top: 30px;
 }
 
 .img{
@@ -34,15 +33,16 @@
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-    margin-right: 0;
 }
 
-.divcard1 {
+.retangulo2{
     display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-    text-align: center;	
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1300px;
+    height: 400px;
+    margin-top: 100px;
 }
 
 .cards{
@@ -51,21 +51,118 @@
 	margin: 20px;
 	width: 252px;
     height: 271px;
-    margin-left: 270px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.partebaixocards{
+    background-color: black;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 252px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .textodocard{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 100px;
-    font-size: 40px;
 	font-size: 18px;
-	margin-bottom: 20px;
-
+    color: white;  
+    margin-top: 10px; 
 }
 
 .imagemcard{
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: auto;
+    margin-top: 50px;
+    margin-bottom: 42px;
+}
+
+@media (max-width: 430px){
+
+    .retangulo1{
+        width: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .img{
+        border-radius: 100%;
+    }
+    .textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .texto1{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+    }
+    
+    .texto2{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    
+    .retangulo2{
+        width: 430px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .cards{
+        background-color: gray;
+        border-radius: 30px;
+        width: 252px;
+        height: 271px;
+        text-align: center;
+    }
+    
+    .partebaixocards{
+        background-color: black;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 252px;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textodocard{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        color: white;  
+        margin-top: 10px; 
+    }
+    
+    
+    .imagemcard{
+        width: 100px;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 42px;
+    }
+    
+
 }
