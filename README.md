@@ -1,10 +1,6 @@
 # felypeDesktopFirst
 Meu projeto, é uma página na qual, possuiu uma foto de perfil, um nome, um subtítulo e três cards, na qual cada um possuiu uma imagem e um subtítulo. Ele é útil para usar em diversos tipos de dispostivos, pois possuiu não apenas a versão Desktop(para computadores e pcs), mas sim também uma versão para Mobile(Dispositvos móveis).
 
-## Sumário
-1. Introdução
-2. Funcionalidades
-
-## INTRODUÇÃO
-- Esse projeto, essa página, funciona
-- 
+## PROCESSO 
+Para o realizamento desse projeto, dessa página, eu usei o método do css externo, coloquei no html o: <link rel="stylesheet" href="./nome do meu arquivo css">.  Na primeira parte, fui primeiramente fazer o html, criei uma div que envolvia todos os elementos e fui criando uma div para cada elemento individualmente, depois fui colocando a imagem que ficaria como a de perfil, depois o título principal e depois o subtítulo. Depois de colocar os primeiros três elementos, fui no css e criei uma classe para cada um dos elementos e para a div que envolvia todos eles, até essa parte eu não tive nenhum problema, nas classes coloquei o display flex, justify-content, margin, border-radius para a imagem e também coloquei outra fonte para os dois textos, as duas classes p.
+Depois fui para parte de baixo da página, criei uma div que envolvia todos os elementos, ou seja, os três cards, os textos dos trÊs cards e as três imagens dentro de cada card. Nessa parte do projeto ive um pouco de dificuldade, principalmente para fazer a parte de baixo arredonda, porém, consegui com o 
